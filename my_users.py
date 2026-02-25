@@ -4,7 +4,7 @@ client = dataiku.api_client()
 users = client.list_users()
     
 rows = []
-index = 1
+index = 10
 for u in users:
     profile = u.get("userProfile")
     login = u["login"]
