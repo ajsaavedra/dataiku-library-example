@@ -17,5 +17,5 @@ for u in users:
         "last_failed_login": activity["lastFailedLogin"],
         "last_session_activity": activity["lastSessionActivity"]
     })
-    index = index + 1
+    index = index + 2
 rows
